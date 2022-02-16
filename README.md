@@ -17,6 +17,6 @@
 
 
 **RUSSIAN TRAVEL**
-* [Ссылка на макет в проект](https://lisa-simpsson.github.io/russian--travel3/)
+* [Ссылка на  проект](https://lisa-simpsson.github.io/russian--travel3/)
 
 
