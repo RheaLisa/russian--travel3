@@ -1,0 +1,35 @@
+.place__paragraph {
+   
+     display: flex;
+    flex-direction: column;
+    padding-top: 48px;
+    max-width: 456px;
+    width: 50%;
+    max-height: 460px ;
+  }
+  @media screen and (max-width: 1024px) {
+    .place__paragraph {
+     
+      width: 47%;
+     
+    
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .place__paragraph {
+      padding-top: 32px;
+     width: 100%;
+      padding-left: 1.6%;
+      padding-right: 1.6%;
+      max-width: 288px;
+      max-height: 1042px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .place__paragraph {
+      padding-top: 48px;
+    max-height: 545px;
+      padding-left: 5%;
+      
+    }
+  }

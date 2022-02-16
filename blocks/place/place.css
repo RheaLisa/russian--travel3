@@ -1,0 +1,29 @@
+.place {
+    max-width: 984px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  
+   }
+   @media screen and (max-width: 1024px) {
+    .place {
+        width: 94%;
+        height: 100%;
+        }
+  }
+  @media screen and (max-width: 768px) {
+    .place {
+       width: 100%;
+        height: 100%;
+  
+       }
+  }
+  @media screen and (max-width: 320px) {
+    .place {
+        width: 98%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 100%;
+    }
+  }

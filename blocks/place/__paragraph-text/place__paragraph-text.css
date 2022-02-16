@@ -1,0 +1,42 @@
+.place__paragraph-text {
+    margin: 0;
+  padding-bottom: 26px;
+  font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+max-width: 484px;
+ 
+}
+@media screen and (max-width: 1024px) {
+  .place__paragraph-text {
+    padding-bottom: 25px;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0;
+   /* max-width: 484px;*/
+     }
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph-text {
+    padding-bottom: 25px;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0;
+    max-width: 352px;
+     }
+}
+@media screen and (max-width: 320px) {
+  .place__paragraph-text {
+    padding-bottom: 25px;
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 288px;
+    margin: 0;
+    
+  }
+}

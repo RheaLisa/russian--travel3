@@ -1,0 +1,28 @@
+.header__logo {
+   
+    padding-top: 28px;
+   padding-right: 931px;
+   display: block;
+   height: 52px;
+    border-radius: 0px;
+  padding-left: 48px;
+}  
+@media screen and (max-width: 1024px){
+  .header__logo {
+   padding-right:calc(931px - 256px);
+}
+} 
+@media screen and (max-width: 768px){
+  .header__logo {
+   padding-right: 467px;
+   padding-left: 24px;
+}
+}   
+@media screen and (max-width: 320px) {
+  .header__logo {
+    padding-right: 84px;
+    height: 42px;
+    padding-top: 16px;
+    padding-left: 16px;
+}
+}

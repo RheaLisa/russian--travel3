@@ -1,0 +1,41 @@
+.page {
+  
+  background: #2A2C2F;
+  min-height: 6875px;
+  min-width: 1280px;
+  width: 100%;
+  color: #FFFFFF;
+  position: relative;
+overflow-x: hidden;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: column;
+  
+}
+@media screen and (max-width: 1024px) {
+
+  .page {
+    min-height: 6875px;
+    min-width: 1024px;
+    width: 100%;
+    overflow-x: hidden;
+      }
+}
+@media screen and (max-width: 768px) {
+  .page {
+    min-height: 6855px;
+  min-width: calc(100% - 512px);
+ 
+  overflow-x: hidden;
+
+     }
+}
+@media screen and (max-width: 320px) {
+  .page {
+    min-height: 10023px;
+  min-width: calc(100% - 960px);
+  
+  overflow-x: hidden;
+    
+  }
+}

@@ -1,0 +1,15 @@
+.footer__link {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    color: #FFFFFF;
+    align-items: flex-start;
+   }
+   
+  @media screen and (max-width: 320px) {
+    .footer__link {
+       
+     flex-direction: column;
+     
+    }
+  }

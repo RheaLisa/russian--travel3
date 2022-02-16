@@ -1,0 +1,9 @@
+.header__columns {
+    display: flex;
+  flex-direction: row;
+   margin-top: 28px;
+  margin-bottom: 0;
+  margin-left: 48px;
+  margin-right: 48px;
+  justify-content: space-between;
+}
