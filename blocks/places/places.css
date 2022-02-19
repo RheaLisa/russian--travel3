@@ -1,32 +1,32 @@
 .places {
     padding-left: 12.5%;
     display: grid;
-     grid-row-gap: 80px;
-     max-height: 3392px;
+    gap: 80px;
+     max-height: 100%;
      padding-bottom: 98px;
-    
-   
+  
   }
   @media screen and (max-width: 1024px) {
     .places {
         padding-left: 4.6%;
         padding-bottom: 92px;
-        max-height: 3292px;
+     
         }
   }
   @media screen and (max-width: 768px) {
     .places {
       padding-left: 3%;
       padding-right: 3%;
-      grid-row-gap: 73px;
- min-height: 2808px;
- padding-bottom: 90px;
+     gap: 47px;
+       padding-bottom: 90px;
+       max-height: 2808px;
        }
   }
+     
   @media screen and (max-width: 320px) {
     .places {
      padding: 0;
-      grid-row-gap: 24px;
+    gap: 24px;
       max-height: 5177px;
     }
   }

@@ -6,7 +6,7 @@
     top: 594.2080078125px;
     border-radius: 0px;
     z-index: 2;
-      
+    
   }
   @media screen and (max-width: 1024px) {
     .lead__image-group {
@@ -27,6 +27,17 @@
 
        }
   }
+
+@media screen and (max-width: 480px) {
+  .lead__image-group {
+    left: 0;
+    top: 458px;
+    width: 470px;
+    height: 170px;
+
+     }
+}
+  
   @media screen and (max-width: 320px) {
     .lead__image-group {
       height: 85.52568817138672px;

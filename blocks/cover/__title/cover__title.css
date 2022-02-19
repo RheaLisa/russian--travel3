@@ -14,18 +14,14 @@
     text-decoration: none;
     color: #FFFFFF;
     }
-    /*@media screen and (max-width: 1024px) {
-      .cover__title {
-     
     
-          }
-    }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 480px) {
       .cover__title {
-        
-    
+        width: 460px;
+        font-size: 45px;
+        line-height: 45px;
          }
-    }*/
+    }
     @media screen and (max-width: 320px) {
       .cover__title {
         height: 70px;

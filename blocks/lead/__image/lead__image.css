@@ -2,7 +2,7 @@
        object-fit: cover;
     height: 615px;
     width: 984px;
-   padding-left: 100px;
+    padding: 0;
     border-radius: 0px;
      margin-bottom: 0;
     
@@ -11,7 +11,7 @@
    .lead__image {
       height: 580px;
       width: 928px;
-      padding: 0;
+    
       
        
        }
@@ -20,17 +20,21 @@
    .lead__image {
       height: 480px;
       width: 768px;
-      padding: 0;
       margin: 0;
 
+      }
+ }
+ @media screen and (max-width: 480px) {
+   .lead__image {
+      height: 300px;
+      width: 480px;
+    
       }
  }
  @media screen and (max-width: 320px) {
    .lead__image {
       height: 200px;
       width: 320px;
-     padding: 0;
-      
-            
+               
        }
  }

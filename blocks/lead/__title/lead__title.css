@@ -5,40 +5,41 @@
     line-height: 100px;
     letter-spacing: 0em;
     text-align: center;
-    padding-top: 56px;
-    padding-left: 232px;
-    padding-right: 280px;
-    color: #FFFF;
+     color: #FFFF;
     max-width: 720px;
     max-height: 200px;
-    margin: 0;
+       margin-top: 0;
+       margin-bottom: 0;
+       word-break: normal;
     }
-    @media screen and (max-width: 1024px) {
+   /* @media screen and (max-width: 1024px) {
         .lead__title {
-             padding-top: 48px;
+            
             padding-left: 104px;
             padding-right: 152px;
             
             }
-      }
+      }*/
       @media screen and (max-width: 768px) {
         .lead__title {
-            padding-top: 48px;
-           padding-left: 24px;
-           padding-right: 24px;
-           max-width: 560px;
       max-height: 200px;
+   
+           }
+      }
+      @media screen and (max-width: 480px) {
+        .lead__title {
+      max-height: 200px;
+      font-size: 56px;
+       line-height: 60px;
            }
       }
       @media screen and (max-width: 320px) {
         .lead__title {
-            padding-top: 48px;
-           padding-left: 16px;
-           padding-right: 16px;
-            font-size: 40px;
+             font-size: 40px;
              line-height: 44px;
              max-width: 288px;
              max-height: 88px;
              padding-bottom: 0;
+
             }
       }

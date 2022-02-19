@@ -5,7 +5,7 @@
     padding-top: 48px;
     max-width: 456px;
     width: 50%;
-    max-height: 460px;
+    max-height: 460px ;
   }
   @media screen and (max-width: 1024px) {
     .place__paragraph {
@@ -29,6 +29,15 @@
     .place__paragraph {
       padding-top: 48px;
     max-height: 545px;
+      padding-left: 5%;
+      
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .place__paragraph {
+      padding-top: 48px;
+    max-height: 545px;
+    width: 100%;
       padding-left: 5%;
       
     }

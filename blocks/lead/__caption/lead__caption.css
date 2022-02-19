@@ -8,26 +8,25 @@
   line-height: 14px;
   letter-spacing: 1.5px;
   text-align: left;
-  padding-left: 100px;
+ padding-right: 830px;
   margin: 0;
   padding-top: 8px;
+  word-break: normal;
    }
    @media screen and (max-width: 1024px) {
     .lead__caption {
-      padding-left: 0;
-       
-        
-        }
+      padding-right: 765px;
+       }
   }
   @media screen and (max-width: 768px) {
     .lead__caption {
-      padding-left: 24px;
+      padding-right: 565px;
  
        }
   }
   @media screen and (max-width: 320px) {
     .lead__caption {
-      padding-left: 16px;
+      padding-right: 130px;
       
     }
   }

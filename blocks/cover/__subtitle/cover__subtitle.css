@@ -7,28 +7,15 @@
     text-align: center;
     max-width: 360px;
     max-height: 66px;
-         border-radius: nullpx;
+     border-radius: nullpx;
     z-index: 3;
    padding-top: 32px;
     margin: 0;
     text-decoration: none;
     color: #FFFFFF;
+    word-break: break-all;
     }
-    /*@media screen and (max-width: 1024px) {
-        .cover__subtitle {
-       
-        left: 332px;
-        top: 6500px;
-            }
-      }
-      @media screen and (max-width: 768px) {
-        .cover__subtitle {
-          left: 204px;
-          top: 6544px;
-      
-           }
-      }*/
-      @media screen and (max-width: 320px) {
+         @media screen and (max-width: 320px) {
         .cover__subtitle {
           max-height: 48px;
         max-width: 288px;

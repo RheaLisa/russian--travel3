@@ -16,8 +16,14 @@
     <header class="header">
 
       <img class="header__logo" alt="Карта России" src="./image/__logo.svg">
-      <a class="header__link header__link_underline" href="#">Ru</a>
-      <a class="header__link" href="#">En</a>
+      <ul class="header__lang">
+        <li class="header__lang-item">
+          <a class="header__link header__link_underline" href="#">Ru</a>
+        </li>
+        <li class="header__lang-item">
+          <a class="header__link" href="#">En</a>
+        </li>
+      </ul>
     </header>
     <main class="content">
       <section class="lead">
@@ -49,44 +55,21 @@
 
       </section>
       <section class="photo-grid">
-        <ul class="photo-grid__list">
-          <li class="photo-grid__list-item">
-            <img src="./image/__grid1.png" alt="" data-type="travel">
-          </li>
-          <li class="photo-grid__list-item">
-            <img src="./image/grid2.png" alt="" data-type="travel">
-          </li>
-          <li class="photo-grid__list-item">
-            <img src="./image/__grid3.png" alt="" data-type="travel">
-          </li>
-          <li class="photo-grid__list-item">
-            <img src="./image/__grid4.png" alt="" data-type="travel">
-          </li>
-          <li class="photo-grid__list-item">
-            <img src="./image/__grid5.png" alt="" data-type="travel">
-          </li>
-          <li class="photo-grid__list-item">
-            <img src="./image/__grid6.png" alt="" data-type="travel">
-          </li>
-          <li class="photo-grid__list-item">
-            <img src="./image/__grid7.png" alt="" data-type="travel">
-          </li>
-          <li class="photo-grid__list-item">
-            <img src="./image/__grid8.png" alt="" data-type="travel">
-          </li>
-          <li class="photo-grid__list-item">
-            <img src="./image/__grid9.png" alt="" data-type="travel">
-          </li>
-          <li class="photo-grid__list-item">
-            <img src="./image/__grid10.png" alt="" data-type="travel">
-          </li>
-          <li class="photo-grid__list-item">
-            <img src="./image/__grid11.png" alt="" data-type="travel">
-          </li>
-          <li class="photo-grid__list-item">
-            <img src="./image/__grid12.png" alt="" data-type="travel">
-          </li>
-        </ul>
+        <div class="photo-grid__container">
+          <img class="photo-grid__item" src="./image/__grid1.png" alt="" data-type="travel">
+          <img class="photo-grid__item" src="./image/grid2.png" alt="" data-type="travel">
+          <img class="photo-grid__item" src="./image/__grid3.png" alt="" data-type="travel">
+          <img class="photo-grid__item" src="./image/__grid4.png" alt="" data-type="travel">
+          <img class="photo-grid__item" src="./image/__grid5.png" alt="" data-type="travel">
+          <img class="photo-grid__item" src="./image/__grid6.png" alt="" data-type="travel">
+          <img class="photo-grid__item" src="./image/__grid7.png" alt="" data-type="travel">
+          <img class="photo-grid__item" src="./image/__grid8.png" alt="" data-type="travel">
+          <img class="photo-grid__item" src="./image/__grid9.png" alt="" data-type="travel">
+          <img class="photo-grid__item" src="./image/__grid10.png" alt="" data-type="travel">
+          <img class="photo-grid__item" src="./image/__grid11.png" alt="" data-type="travel">
+          <img class="photo-grid__item" src="./image/__grid12.png" alt="" data-type="travel">
+
+        </div>
       </section>
       <section class="places">
         <article class="place">
@@ -106,94 +89,95 @@
               спокойствие природы и запах стального, прохладного моря.</p>
           </div>
         </article>
-  <article class="place">
-    <h2 class="place__title">Кольский</h2>
+        <article class="place">
+          <h2 class="place__title">Кольский</h2>
 
-    <div class="place__website">
-      <h3 class="place__url-heading">URL</h3>
-      <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National
-        Geographic</a>
-    </div>
+          <div class="place__website">
+            <h3 class="place__url-heading">URL</h3>
+            <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National
+              Geographic</a>
+          </div>
 
 
-    <img class="place__image" alt="Кольский" src="./image/__imageKols.png">
-    <div class="place__paragraph">
-      <p class="place__paragraph-text">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от
-        которой на юг —
-        тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
-      <p class="place__paragraph-text">Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля
-        в Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об уроках географии.
-        Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас
-        давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом
-        в Мурманск.</p>
-    </div>
-    </article>
-    <article class="place">
-      <h2 class="place__title">Алтай</h2>
-      <div class="place__website">
-        <h3 class="place__url-heading">URL</h3>
-        <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
-      </div>
+          <img class="place__image" alt="Кольский" src="./image/__imageKols.png">
+          <div class="place__paragraph">
+            <p class="place__paragraph-text">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от
+              которой на юг —
+              тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
+            <p class="place__paragraph-text">Возможно, вы смотрели Звягинцева и даже слышали историю арктического
+              фестиваля
+              в Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об уроках географии.
+              Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас
+              давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом
+              в Мурманск.</p>
+          </div>
+        </article>
+        <article class="place">
+          <h2 class="place__title">Алтай</h2>
+          <div class="place__website">
+            <h3 class="place__url-heading">URL</h3>
+            <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
+          </div>
 
-      <img class="place__image" alt="Алтай" src="./image/__imageAltay.jpg">
-      <div class="place__paragraph">
-        <p class="place__paragraph-text">Алтай — одно из красивейших мест в России.
-          В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и
-          озёра. А если вы откроете в автомобиле окна, сможете познакомиться с невидимым чудом здешних мест —
-          горным воздухом.</p>
-        <p class="place__paragraph-text">Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы
-          увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а
-          на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
-      </div>
-    </article>
-    <article class="place">
-      <h2 class="place__title">Зимний Байкал</h2>
+          <img class="place__image" alt="Алтай" src="./image/__imageAltay.jpg">
+          <div class="place__paragraph">
+            <p class="place__paragraph-text">Алтай — одно из красивейших мест в России.
+              В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и
+              озёра. А если вы откроете в автомобиле окна, сможете познакомиться с невидимым чудом здешних мест —
+              горным воздухом.</p>
+            <p class="place__paragraph-text">Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы
+              увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а
+              на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
+          </div>
+        </article>
+        <article class="place">
+          <h2 class="place__title">Зимний Байкал</h2>
 
-      <div class="place__website">
-        <h3 class="place__url-heading">URL</h3>
-        <a class="place__link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
-      </div>
+          <div class="place__website">
+            <h3 class="place__url-heading">URL</h3>
+            <a class="place__link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
+          </div>
 
-      <img class="place__image" alt="Зимний Байкал" src="./image/__imagemnbayc.png">
-      <div class="place__paragraph">
-        <p class="place__paragraph-text">Всем известен Байкал как крупнейшее озеро
-          в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в
-          России.</p>
-        <p class="place__paragraph-text">Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по
-          скийорингу. Это такой вид спорта, когда лыжник привязывает себя
-          к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на
-          фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
-      </div>
-    </article>
-    <article class="place">
-      <h2 class="place__title">Карелия</h2>
+          <img class="place__image" alt="Зимний Байкал" src="./image/__imagemnbayc.png">
+          <div class="place__paragraph">
+            <p class="place__paragraph-text">Всем известен Байкал как крупнейшее озеро
+              в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в
+              России.</p>
+            <p class="place__paragraph-text">Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по
+              скийорингу. Это такой вид спорта, когда лыжник привязывает себя
+              к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на
+              фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
+          </div>
+        </article>
+        <article class="place">
+          <h2 class="place__title">Карелия</h2>
 
-      <div class="place__website">
-        <h3 class="place__url-heading">URL</h3>
-        <a class="place__link" href="http://vodlozero.ru">http://vodlozero.ru/</a>
-      </div>
+          <div class="place__website">
+            <h3 class="place__url-heading">URL</h3>
+            <a class="place__link" href="http://vodlozero.ru">http://vodlozero.ru/</a>
+          </div>
 
-      <img class="place__image" alt="Карелия" src="./image/__imageKareliya.png">
-      <div class="place__paragraph">
-        <p class="place__paragraph-text">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
-          лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских
-          национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем
-          полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный.
-          В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья
-          в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
-      </div>
-    </article>
+          <img class="place__image" alt="Карелия" src="./image/__imageKareliya.png">
+          <div class="place__paragraph">
+            <p class="place__paragraph-text">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
+              лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских
+              национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем
+              полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный.
+              В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья
+              в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
+          </div>
+        </article>
 
-    </section>
-    <section class="cover">
-      <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala">
-        <h2 class="cover__title">До Байкала «на собаках»</h2>
-        <h3 class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
-          электричках.</h3>
+      </section>
+      <section class="cover">
+        <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+          <h2 class="cover__title">До Байкала «на собаках»</h2>
+          <h3 class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
+            электричках.</h3>
 
-        
-      </a>
-    </section>
+
+        </a>
+      </section>
     </main>
     <footer class="footer">
       <nav class="footer__link">

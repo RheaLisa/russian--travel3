@@ -1,6 +1,5 @@
 .cover__overlay {
-    
-     
+  
     position: relative;
     background-image: url(../../../image/__baikal_background.png);
     max-width: 1184px;
@@ -12,15 +11,12 @@
      text-decoration: none;
      background-repeat: no-repeat;
      display: flex;
-     /*justify-content: center;*/
      flex-direction: column;
      align-items: center;
      z-index: 0;
      content: '';
      background-color: #2A2C2F;
      opacity: 0.7;
-     /*padding-left: 4%;
-     padding-right: 4%;*/
     
   }
   .cover__overlay::before {

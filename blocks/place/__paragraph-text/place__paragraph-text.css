@@ -9,6 +9,7 @@ line-height: 29px;
 letter-spacing: 0em;
 text-align: left;
 max-width: 484px;
+word-break: normal;
  
 }
 @media screen and (max-width: 1024px) {
@@ -28,6 +29,13 @@ max-width: 484px;
     line-height: 26px;
     margin: 0;
     max-width: 352px;
+    
+     }
+}
+@media screen and (max-width: 480px) {
+  .place__paragraph-text {
+   
+    max-width: 480px;
      }
 }
 @media screen and (max-width: 320px) {
